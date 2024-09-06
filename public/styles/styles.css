@@ -45,7 +45,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-body {
+.card-body, select {
     background-color: #243b55;
     border-radius: 10px;
 }
@@ -59,4 +59,10 @@ body {
     background-color: #ffcc00;
     font-size: large;
     border-radius: 45px;
+}
+
+select {
+    padding: 1rem;
+    width: 70%;
+    color: #e0e6ed;
 }
