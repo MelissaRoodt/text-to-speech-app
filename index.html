@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text To Speech Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./public/styles/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="card">
+            <h1 class="card-header">Text To Speech <span>Converter</span></h1>
+            <textarea class="card-body" placeholder="Write any text here..." rows="15"></textarea>
+            <div class="submit">
+                <select>
+                    <option value=""></option>
+                </select>
+                <button class="card-button" type="button" id="submit" name="submite"><i class="bi bi-play-fill"></i>Submit</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

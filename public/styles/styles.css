@@ -1,0 +1,62 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, p {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #e0e6ed;
+}
+
+h1 > span {
+    color: #ffcc00;
+}
+
+body {
+    background-image: linear-gradient(to right, #141e30 , #243b55);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    max-width: 100%;
+    height: 450px;
+    width: 500px;
+}
+
+.card-body, .card-button {
+    color: #e0e6ed;
+    border: none;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    background-color: #243b55;
+    border-radius: 10px;
+}
+
+.card-body::placeholder {
+    color: rgb(212, 212, 212);
+}
+
+.card-button{
+    width: 145px;
+    background-color: #ffcc00;
+    font-size: large;
+    border-radius: 45px;
+}
