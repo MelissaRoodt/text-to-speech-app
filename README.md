@@ -1,2 +1,2 @@
 # text-to-speech-app
-This is a text to speec application. 
+This was a simple text to speech application build using vanilla javascript 
